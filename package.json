@@ -1,0 +1,23 @@
+{
+  "name": "my-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d _book"
+  },
+  "homepage": "https://github.com/fnyangyu/note",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theonell/my-note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theonell/my-note/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}

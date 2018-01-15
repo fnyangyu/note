@@ -1,0 +1,803 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>npm命令 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="react.html" />
+    
+    
+    <link rel="prev" href="linux-cmd.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="es6.html">
+            
+                <a href="es6.html">
+            
+                    
+                    es6介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    git命令操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="linux-cmd.html">
+            
+                <a href="linux-cmd.html">
+            
+                    
+                    linux命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="npm.html">
+            
+                <a href="npm.html">
+            
+                    
+                    npm命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="react.html">
+            
+                <a href="react.html">
+            
+                    
+                    react
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="my-transition.html">
+            
+                <a href="my-transition.html">
+            
+                    
+                    react-transition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="share.html">
+            
+                <a href="share.html">
+            
+                    
+                    share
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="webpack-config/">
+            
+                <a href="webpack-config/">
+            
+                    
+                    webpack配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="webpack-config/1.html">
+            
+                <a href="webpack-config/1.html">
+            
+                    
+                    webpack生产环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="webpack-config/2.html">
+            
+                <a href="webpack-config/2.html">
+            
+                    
+                    webpack开发环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="vue-note/vue.html">
+            
+                <a href="vue-note/vue.html">
+            
+                    
+                    vue-note
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="vue-note/">
+            
+                <a href="vue-note/">
+            
+                    
+                    vue-cli 搭建开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="vue-note/content1.html">
+            
+                <a href="vue-note/content1.html">
+            
+                    
+                    添加 Vue 组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="vue-note/content2.html">
+            
+                <a href="vue-note/content2.html">
+            
+                    
+                    组件内使用 state
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="redux-hello-v3-note/home.html">
+            
+                <a href="redux-hello-v3-note/home.html">
+            
+                    
+                    redux-hello-v3流程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="redux-hello-v3-note/1-env.html">
+            
+                <a href="redux-hello-v3-note/1-env.html">
+            
+                    
+                    创建开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="redux-hello-v3-note/2-state.html">
+            
+                <a href="redux-hello-v3-note/2-state.html">
+            
+                    
+                    创建内部state
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="redux-hello-v3-note/3-store.html">
+            
+                <a href="redux-hello-v3-note/3-store.html">
+            
+                    
+                    创建store
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="redux-hello-v3-note/4-action.html">
+            
+                <a href="redux-hello-v3-note/4-action.html">
+            
+                    
+                    修改store数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="redux-hello-v3-note/5-connect.html">
+            
+                <a href="redux-hello-v3-note/5-connect.html">
+            
+                    
+                    动态订阅状态树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="redux-hello-v3-note/6-combine.html">
+            
+                <a href="redux-hello-v3-note/6-combine.html">
+            
+                    
+                    Store 中添加多类数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="redux-hello-v3-note/7-post-pages.html">
+            
+                <a href="redux-hello-v3-note/7-post-pages.html">
+            
+                    
+                    添加首页博客目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="redux-hello-v3-note/8-relation.html">
+            
+                <a href="redux-hello-v3-note/8-relation.html">
+            
+                    
+                    文章显示各自评论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.9" data-path="redux-hello-v3-note/9-action.html">
+            
+                <a href="redux-hello-v3-note/9-action.html">
+            
+                    
+                    使用 action 创建函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.10" data-path="redux-hello-v3-note/10-axios.html">
+            
+                <a href="redux-hello-v3-note/10-axios.html">
+            
+                    
+                    请求 API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.11" data-path="redux-hello-v3-note/11-thunk.html">
+            
+                <a href="redux-hello-v3-note/11-thunk.html">
+            
+                    
+                    使用 redux-thunk 执行异步操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.12" data-path="redux-hello-v3-note/12-comments.html">
+            
+                <a href="redux-hello-v3-note/12-comments.html">
+            
+                    
+                    评论功能调整
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="redux-cart-note/home.html">
+            
+                <a href="redux-cart-note/home.html">
+            
+                    
+                    redux实现购物车功能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="redux-cart-note/1-cra.html">
+            
+                <a href="redux-cart-note/1-cra.html">
+            
+                    
+                    搭建 createreactapp 环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="redux-cart-note/2-state.html">
+            
+                <a href="redux-cart-note/2-state.html">
+            
+                    
+                    使用内部 state 实现商品列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="redux-cart-note/3-store.html">
+            
+                <a href="redux-cart-note/3-store.html">
+            
+                    
+                    数据搬家到 redux store 中
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="redux-cart-note/4-combine.html">
+            
+                <a href="redux-cart-note/4-combine.html">
+            
+                    
+                    store 中存储多类数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="redux-cart-note/5-action.html">
+            
+                <a href="redux-cart-note/5-action.html">
+            
+                    
+                    修改状态树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.6" data-path="redux-cart-note/6-connect.html">
+            
+                <a href="redux-cart-note/6-connect.html">
+            
+                    
+                    通过 connect 动态订阅状态树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.7" data-path="redux-cart-note/7-selector.html">
+            
+                <a href="redux-cart-note/7-selector.html">
+            
+                    
+                    用 selector 函数获取派生数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.8" data-path="redux-cart-note/8-quantity.html">
+            
+                <a href="redux-cart-note/8-quantity.html">
+            
+                    
+                    同一商品买多件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.9" data-path="redux-cart-note/9-total.html">
+            
+                <a href="redux-cart-note/9-total.html">
+            
+                    
+                    运算总价
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.10" data-path="redux-cart-note/10-style.html">
+            
+                <a href="redux-cart-note/10-style.html">
+            
+                    
+                    用 styled-components 添加样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >npm命令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <ul>
+<li><p>git clone git@github.com:Sunny-zz/1709.git</p>
+</li>
+<li><p><a href="https://github.com/Sunny-zz/1709.git" target="_blank">https://github.com/Sunny-zz/1709.git</a></p>
+</li>
+<li><p>github &#x5206;&#x652F;   gh-pages         xxx.github.io/app1</p>
+</li>
+</ul>
+<ul>
+<li>master  &#x4E3B;&#x5206;&#x652F;</li>
+<li>index.html style.css&#x516C;&#x5171;</li>
+<li>about.html   help.html</li>
+<li>ls -a  &#x67E5;&#x770B;&#x9690;&#x85CF;&#x6587;&#x4EF6;</li>
+<li>.git &#x8BF4;&#x660E;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x5939;&#x662F;&#x4E00;&#x4E2A;github&#x4ED3;&#x5E93;</li>
+<li>git branch  --&#x67E5;&#x770B;&#x5F53;&#x524D;&#x4ED3;&#x5E93;&#x7684;&#x5206;&#x652F;  *&#x8BF4;&#x660E;  &#x5F53;&#x524D;&#x4F4D;&#x4E8E;&#x67D0;&#x4E2A;&#x5206;&#x652F;   -r &#x67E5;&#x770B;&#x8FDC;&#x7AEF;&#x7684;&#x5206;&#x652F;</li>
+<li>git brandch  &#x5206;&#x652F;&#x540D;    --&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5206;&#x652F;</li>
+<li>git branch gh-pages            &#x5F53;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5206;&#x652F;&#x7684;&#x65F6;&#x5019;&#x5206;&#x652F;&#x91CC;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x9ED8;&#x8BA4;&#x548C;master&#x5206;&#x652F;&#x4E00;&#x6837;</li>
+<li>git checkout &#x5206;&#x652F;&#x540D;   --&#x5207;&#x6362;&#x5206;&#x652F;</li>
+<li>git checkout -b [yourbranch]  &#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5206;&#x652F;&#x5E76;&#x5207;&#x6362;&#x8FC7;&#x53BB;</li>
+</ul>
+<hr>
+<ol>
+<li>&#x514B;&#x9686;&#x5230;&#x672C;&#x5730; git clone</li>
+<li>&#x65B0;&#x5EFA;&#x5206;&#x652F; gh-pages &#x5E76;&#x5207;&#x6362;git</li>
+<li>&#x5206;&#x652F;&#x4E0A;&#x65B0;&#x5EFA; index.html  &#x5E76;&#x4E0A;&#x4F20; git add .   git commit -m&apos;11&apos;   git push</li>
+<li>&#x8BBF;&#x95EE;  git&#x7528;&#x6237;&#x540D;.github.io/hellogithub &#x4EE3;&#x7801;&#x6258;&#x7BA1;&#x5DE5;&#x5177;&#x672C;&#x5730;  &#x7F51;&#x4E0A;</li>
+<li>&#x7F51;&#x4E0A;&#x6709;&#x4ED3;&#x5E93;&#x5E76;&#x4E14;&#x4ED3;&#x5E93;&#x5185;&#x6709;&#x5185;&#x5BB9;  &#x4ED3;&#x5E93;&#x514B;&#x9686;&#x5230;&#x672C;&#x5730;   git clone &#x5730;&#x5740;(http ssh)<ul>
+<li>git add .     git commit -m&apos;xx&apos;     git push      git  pull</li>
+</ul>
+</li>
+<li>&#x628A;&#x672C;&#x5730;&#x7684;&#x9879;&#x76EE;&#x4E0A;&#x4F20;&#x5230;&#x7F51;&#x4E0A;&#x7684;&#x7A7A;&#x4ED3;&#x5E93;git init     git add .     git commit -m&apos;xx&apos;     git push<ul>
+<li>ssh-keygen   &#x4E3B;&#x76EE;&#x5F55;&#x4E0B;&#x4F1A;&#x751F;&#x6210; .ssh &#x6587;&#x4EF6; &#x5185;&#x90E8;&#x4F1A;&#x751F;&#x6210; &#x4E24;&#x4E2A;&#x6587;&#x4EF6; &#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x5C31;&#x662F;&#x516C;&#x94A5;  id_rsa.pub &#x5206;&#x652F;</li>
+</ul>
+</li>
+<li>git&#x7528;&#x6237;&#x540D;.github.io &#x8FD9;&#x4E2A;&#x4ED3;&#x5E93; &#x4E0B;&#x7684; index.html &#x80FD;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x7528;&#x6237;&#x540D;.github.io</li>
+<li>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;(&#x9664;&#x4E86; xxx.github.io &#x4E4B;&#x5916;)&#x5185;&#x6709; gh-pages &#x5206;&#x652F;&#x4E0B;&#x7684; index.html &#x80FD;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x7528;&#x6237;&#x540D;.github.io/&#x4ED3;&#x5E93;&#x540D;node   npm</li>
+<li>apm install emmet   atom&#x7F16;&#x8F91;&#x5668;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;sudo apt-get install curl  curl --versionnvm     node  version  manger</li>
+<li>&#x4F7F;&#x7528;nvm&#x53EF;&#x4EE5;&#x5B89;&#x88C5;&#x4EFB;&#x4F55;&#x7248;&#x672C;&#x7684;node</li>
+<li>sudo apt-get install curl</li>
+<li>curl -o- <a href="https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh" target="_blank">https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh</a> | bash</li>
+<li>nvm ls-remote   &#x67E5;&#x770B;nvm&#x53EF;&#x4EE5;&#x5B89;&#x88C5;&#x54EA;&#x4E9B;node&#x7248;&#x672C;npm -v</li>
+<li>nvm use stable</li>
+<li>npm   node  package  manager&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;npm-demonpm init</li>
+<li>npm i jquery@x.x.x --save</li>
+<li>npm uninstall jquery</li>
+<li>npm i xx --save-dev</li>
+</ol>
+<hr>
+<ol>
+<li>&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;&#x538B;&#x7F29;js html css   &#x65B0;&#x7684;js&#x8BED;&#x6CD5;&#x81EA;&#x52A8;&#x7F16;&#x8BD1;&#x4E3A;es5&#x8BED;&#x6CD5;</li>
+<li>.gitignore &#x6587;&#x4EF6; git&#x4E0A;&#x4F20;&#x65F6; &#x5199;&#x5728;&#x8BE5;&#x6587;&#x4EF6;&#x5185;&#x7684;&#x6587;&#x4EF6;&#x88AB;&#x5FFD;&#x7565;&#x4E0A;&#x4F20;&#x5C06;&#x672C;&#x5730;&#x4ED3;&#x5E93;&#x5220;&#x9664;</li>
+<li>&#x514B;&#x9686;&#x7F51;&#x4E0A;&#x7684;&#x4ED3;&#x5E93;&#x5230;&#x672C;&#x5730;  &#x5C06;node_modules&#x5220;&#x9664;&#x518D;&#x4E0A;&#x4F20;</li>
+<li>&#x6B64;&#x65F6;&#x7F51;&#x4E0A;&#x5C31;&#x6CA1;&#x6709;&#x4E86; node_modules</li>
+<li>&#x7136;&#x540E;&#x672C;&#x5730; npm i  node_modules &#x5C31;&#x4F1A;&#x51FA;&#x73B0;</li>
+<li>&#x6B64;&#x65F6; &#x65B0;&#x5EFA;  .gitignore &#x518D;&#x4E0A;&#x4F20;  &#x6B64;&#x65F6;&#x672C;&#x5730;&#x7684;node_modules &#x5C31;&#x4F1A;&#x4E0A;&#x4F20;&#x4E0D;&#x4E0A;&#x53BB;&#x4E86;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="linux-cmd.html" class="navigation navigation-prev " aria-label="Previous page: linux命令">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="react.html" class="navigation navigation-next " aria-label="Next page: react">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"npm命令","level":"1.5","depth":1,"next":{"title":"react","level":"1.6","depth":1,"path":"react.md","ref":"react.md","articles":[]},"previous":{"title":"linux命令","level":"1.4","depth":1,"path":"linux-cmd.md","ref":"linux-cmd.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"npm.md","mtime":"2018-01-15T01:55:57.485Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-15T02:18:21.463Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
